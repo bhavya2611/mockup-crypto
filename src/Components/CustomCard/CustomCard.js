@@ -1,9 +1,9 @@
 import React from "react";
-import CardHeader from '../CardHeader/CardHeader';
-import CardFooter from '../CardFooter/CardFooter';
-import ProfileWrapper from '../ProfileWrapper/ProfileWrapper';
-import CustomButton from '../CustomButton/CustomButton';
-import Stepper from '../Stepper/Stepper';
+import CardHeader from "../CardHeader/CardHeader";
+import CardFooter from "../CardFooter/CardFooter";
+import ProfileWrapper from "../ProfileWrapper/ProfileWrapper";
+import CustomButton from "../CustomButton/CustomButton";
+import Stepper from "../Stepper/Stepper";
 import styles from "./customCard.module.scss";
 
 const CustomCard = ({ config }) => {
@@ -12,10 +12,10 @@ const CustomCard = ({ config }) => {
       <div className={styles.card}>
         <CardHeader />
         <div className={`row ${styles.card_body}`}>
-          <div className="col-md-5">
+          <div className="col-md-6">
             <ProfileWrapper config={config} />
           </div>
-          <div className="col-md-7">
+          <div className="col-md-6">
             <div className="row">
               <div className={`col-6 ${styles.btn_wrapper}`}>
                 <CustomButton icon={<i className="fab fa-cc-paypal"></i>} />
@@ -40,7 +40,7 @@ const CustomCard = ({ config }) => {
         </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default CustomCard;
