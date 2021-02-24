@@ -1,0 +1,23 @@
+@import "../../Assets/variables.scss";
+
+.card_footer {
+  border-top: 1px solid $color-card-border;
+  padding-top: 3vh;
+
+  .tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .value {
+      color: $color-primary;
+      font-weight: bold;
+    }
+
+    .label {
+      color: $color-grey;
+    }
+  }
+}

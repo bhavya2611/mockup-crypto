@@ -1,0 +1,17 @@
+@import "../../Assets/variables.scss";
+
+.custom_btn {
+  font-size: 3em;
+  width: 100%;
+  color: $color-primary;
+  border-color: $color-card-border;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 7px;
+
+  &:hover {
+    border-color: $color-blue;
+    background-color: $color-blue;
+    color: white;
+  }
+}

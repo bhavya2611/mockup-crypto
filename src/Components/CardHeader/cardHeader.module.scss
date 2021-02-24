@@ -1,0 +1,11 @@
+@import "../../Assets/variables.scss";
+
+.card_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    color: $color-grey;
+  }
+}

@@ -1,0 +1,47 @@
+@import "../../Assets/variables.scss";
+
+.stepper {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+
+  .divider {
+    border-bottom: 3px solid $color-card-border;
+    width: 50%;
+    height: 0;
+    margin-top: 20px;
+  }
+
+  .tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    i {
+      border-radius: 50%;
+      font-size: 1.2em;
+      padding: 10px;
+
+      &.check {
+        background-color: $color-blue-light;
+        color: $color-blue;
+      }
+
+      &.marker {
+        background-color: $color-green-light;
+        color: $color-green;
+      }
+    }
+
+    .value {
+      color: $color-primary;
+      font-weight: bold;
+    }
+
+    .label {
+      color: $color-grey;
+    }
+  }
+}

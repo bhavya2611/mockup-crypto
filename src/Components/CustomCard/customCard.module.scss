@@ -1,0 +1,28 @@
+@import "../../Assets/variables.scss";
+
+.custom_card_wrapper {
+  max-width: 600px;
+  font-size: 1em;
+
+  .card {
+    height: 100%;
+    box-shadow: 2px 2px 20px #c2cdff;
+    padding: 20px;
+
+    .card_body {
+      margin-top: 20px;
+
+      .btn_wrapper {
+        padding: 10px;
+      }
+
+      .stepper_wrapper {
+        margin-top: 20px;
+      }
+    }
+
+    .card_footer {
+      margin: 20px 0;
+    }
+  }
+}

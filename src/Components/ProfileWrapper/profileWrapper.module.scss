@@ -1,0 +1,33 @@
+@import "../../Assets/variables.scss";
+
+.profile_wrapper {
+  .header {
+    display: flex;
+
+    .avatar {
+      width: 22%;
+      border-radius: 50%;
+    }
+
+    .info {
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+
+      .name {
+        color: $color-primary;
+        font-weight: bold;
+      }
+
+      .description {
+        color: $color-grey;
+      }
+    }
+  }
+  .inputs {
+    margin-top: 3vh;
+    .input_wrapper {
+      margin-top: 1vh;
+    }
+  }
+}

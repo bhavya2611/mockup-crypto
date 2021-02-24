@@ -1,0 +1,18 @@
+@import "../../Assets/variables.scss";
+@import "../../Assets/mixins.scss";
+
+.home_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+
+  .card_wrapper {
+    margin: 10px;
+
+    @include mobile {
+      margin: 10px;
+    }
+  }
+}
